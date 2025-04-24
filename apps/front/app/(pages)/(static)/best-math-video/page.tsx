@@ -8,11 +8,11 @@ import CtaButton from "./vote/cta-button"
 export default function BestMathVideoPage() {
 
   return (
-    <TextureBg>
+    <TextureBg className="bg-[#fff9f3]">
       <div className="flex flex-col items-center w-full lg:w-3/4 px-5 lg:px-0 space-y-14 mb-20">
         <div className="space-y-8">
           <h1 className="text-center text-4xl font-bold drop-shadow-sm">
-            <span className='bg-gradient-to-br from-sky-600 to-[#1C55FF] inline-block text-transparent bg-clip-text'>
+            <span className='text-[#FE0000]'>
               Best Mathematical Video
             </span>
           </h1>

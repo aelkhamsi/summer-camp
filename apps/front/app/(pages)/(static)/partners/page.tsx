@@ -57,7 +57,7 @@ const sponsors = [
 
 export default function PartnersPage() {
   return (
-    <TextureBg>
+    <TextureBg className="bg-[#fff9f3]">
       <div className="w-full max-w-sm md:max-w-7xl px-5 xl:px-0 mt-10 mb-20">
         <div className="space-y-6">
           <div>

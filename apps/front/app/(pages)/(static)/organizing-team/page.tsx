@@ -47,10 +47,10 @@ export default function OrganizingTeamPage() {
   const shuffledOrganizingCommitte = shuffle(organizingCommittee)
 
   return (
-    <TextureBg>
+    <TextureBg className="bg-[#fff9f3]">
       <div className="w-full max-w-sm md:max-w-screen-lg px-5 xl:px-0 mt-10 space-y-6">
         <h1 className="text-center text-4xl font-bold drop-shadow-sm">
-          <span className='bg-gradient-to-br from-sky-800 to-[#272162] inline-block text-transparent bg-clip-text'>Math&Maroc</span> <span className='font-extralight'>{" | "}</span>
+          <span className='text-[#FE0000]'>Math&Maroc</span> <span className='font-extralight'>{" | "}</span>
           <span className='bg-gradient-to-br from-black to-stone-500 inline-block text-transparent bg-clip-text'>Organizing Committee</span>
         </h1>
 
@@ -71,7 +71,7 @@ export default function OrganizingTeamPage() {
           {/* WEB DEV */}
           <div className='w-full md:w-1/2 space-y-4'>
             <h1 className="text-center text-3xl font-bold drop-shadow-sm">
-              <span className='bg-gradient-to-br from-sky-800 to-[#272162] inline-block text-transparent bg-clip-text'>Math&Maroc</span> <span className='font-extralight'>{" | "}</span>
+              <span className='text-[#FE0000]'>Math&Maroc</span> <span className='font-extralight'>{" | "}</span>
               <span className='bg-gradient-to-br from-black to-stone-500 inline-block text-transparent bg-clip-text'>Web Development</span>
             </h1>
 
@@ -93,7 +93,7 @@ export default function OrganizingTeamPage() {
           {/* BRANDING & DESIGN */}
           <div className='w-full md:w-1/2 space-y-4'>
             <h1 className="text-center text-3xl font-bold drop-shadow-sm">
-              <span className='bg-gradient-to-br from-sky-800 to-[#272162] inline-block text-transparent bg-clip-text'>Math&Maroc</span> <span className='font-extralight'>{" | "}</span>
+              <span className='text-[#FE0000]'>Math&Maroc</span> <span className='font-extralight'>{" | "}</span>
               <span className='bg-gradient-to-br from-black to-stone-500 inline-block text-transparent bg-clip-text'>Branding & Design</span>
             </h1>
 
