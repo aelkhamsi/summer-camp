@@ -1,0 +1,11 @@
+version: '3.1'
+
+services:
+  sc_api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: sc_api
+    restart: always
+    ports:
+      - "9009:9009"

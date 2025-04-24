@@ -1,0 +1,45 @@
+version: '3.1'
+
+services:
+  # MySQL database service
+  sc_db:
+    image: mysql
+    container_name: sc_db
+    restart: always
+    environment:
+      - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
+      - MYSQL_DATABASE=${MYSQL_DATABASE}
+      - MYSQL_USER=${MYSQL_USER}
+      - MYSQL_PASSWORD=${MYSQL_PASSWORD}
+    ports:
+      - "3306:3306"
+
+  # phpMyAdmin service
+  sc_phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: sc_phpmyadmin
+    links:
+      - sc_db
+    environment:
+      - PMA_HOST=sc_db
+      - PMA_PORT=3306
+      - PMA_ARBITRARY=1
+    restart: always
+    ports:
+      - 8080:80
+
+  # Node.js API service
+  sc_api:
+    image: node
+    container_name: sc_api
+    restart: always
+    depends_on:
+      - sc_db
+    ports:
+      - "9009:9009"
+    volumes:
+      - ".:/home/node/app"
+    environment:
+      - MYSQL_HOST=sc_db
+    working_dir: /home/node/app
+    command: npm run start:dev
