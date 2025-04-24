@@ -19,7 +19,7 @@ export default function ConferencesPage() {
     <TextureBg className="bg-[#fff9f3]">
       <div className="w-full flex flex-col items-center max-w-sm md:max-w-screen-xl px-5 xl:px-0 space-y-20 mb-20">
         <h1 className="text-center text-4xl font-bold drop-shadow-sm">
-          <span className='text-[#FE0000]'>Conférences</span>
+          <span className='text-[#FF4925]'>Conférences</span>
         </h1>
 
         <div

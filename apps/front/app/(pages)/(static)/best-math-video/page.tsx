@@ -12,7 +12,7 @@ export default function BestMathVideoPage() {
       <div className="flex flex-col items-center w-full lg:w-3/4 px-5 lg:px-0 space-y-14 mb-20">
         <div className="space-y-8">
           <h1 className="text-center text-4xl font-bold drop-shadow-sm">
-            <span className='text-[#FE0000]'>
+            <span className='text-[#FF4925]'>
               Best Mathematical Video
             </span>
           </h1>

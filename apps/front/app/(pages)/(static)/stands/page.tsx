@@ -10,7 +10,7 @@ export default function StandsPage() {
         {/* TITLE */}
         <div className="space-y-4">
           <h1 className="text-center text-4xl font-bold drop-shadow-sm">
-            <span className='text-[#FE0000]'>
+            <span className='text-[#FF4925]'>
               Stands
             </span>
           </h1>

@@ -31,7 +31,7 @@ const SecondSection = () => {
         className="flex flex-col w-full space-y-4 md:flex-row md:justify-between md:space-x-8 lg:w-3/4 text-base mb-12 md:mb-20"
       >
         <div className="w-full space-y-4 p-4 lg:p-0">
-          <p className='font-bold text-xs text-[#fe0000]'>C'est quoi Summer Camp ?</p>
+          <p className='font-bold text-xs text-[#FF4925]'>C'est quoi Summer Camp ?</p>
           <h1 className='font-bold text-3xl'>Summer Camp, une aventure scientifique et mathématique au cœur de l&apos;été</h1>
           <p>Le <span className='font-bold'>Summer Camp</span>, c&apos;est une semaine d&apos;immersion dédiée aux mathématiques et aux sciences, pensée pour les jeunes curieux et passionnés.</p>
           <p>À travers des séances de haut niveau en mathématiques, une introduction à l&apos;informatique, des ateliers et des workshops, les élèves explorent les notions scientifiques de façon concrète et ludique.</p>
@@ -55,8 +55,8 @@ const SecondSection = () => {
       >
         <div className='w-full flex justify-start p-4 lg:p-0'>
           <div className="w-fit space-y-4 font-medium text-3xl lg:text-4xl">
-            <p><span className='bg-gradient-to-br from-[#FE0000] to-[#ABA8A9] inline-block text-transparent bg-clip-text'>75+</span> Participants</p>
-            <p><span className='bg-gradient-to-br from-[#FE0000] to-[#ABA8A9] inline-block text-transparent bg-clip-text'>1</span> Semaine prise en charge</p>
+            <p><span className='bg-gradient-to-br from-[#FF4925] to-[#ABA8A9] inline-block text-transparent bg-clip-text'>75+</span> Participants</p>
+            <p><span className='bg-gradient-to-br from-[#FF4925] to-[#ABA8A9] inline-block text-transparent bg-clip-text'>1</span> Semaine prise en charge</p>
             <p>✨ Des formations d&apos;excellence</p>
             <p>🏖️ Des jeux, du sport et des sorties</p>
           </div>

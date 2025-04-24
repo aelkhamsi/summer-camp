@@ -34,7 +34,7 @@ const ThirdSection = () => {
           className="md:flex w-full lg:w-3/4 text-sm my-4"
         >
           <div className='w-full'>
-            <div className='text-center font-bold text-[#00FCFE] p-6'>
+            <div className='text-center font-bold text-[#1C55FF] p-6'>
               Compétitions
             </div>
 
@@ -51,7 +51,7 @@ const ThirdSection = () => {
           </div>
 
           <div className='w-full'>
-            <div className='text-center font-bold text-[#00FCFE] p-6'>
+            <div className='text-center font-bold text-[#1C55FF] p-6'>
               Activités
             </div>
 
