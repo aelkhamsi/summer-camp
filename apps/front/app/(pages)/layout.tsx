@@ -12,8 +12,8 @@ import { Toaster } from "@mdm/ui";
 
 
 export const metadata = {
-  title: "MDM 2025",
-  description: "MDM: La grande rencontre des passionnés de mathématiques",
+  title: "Summer Camp 2025",
+  description: "Summer Camp: Une semaine en immersion dans l'univers des mathématiques",
   metadataBase: new URL("https://mathmaroc.org"),
 };
 

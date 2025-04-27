@@ -80,7 +80,7 @@ export const applicationDefaultValues = {
   healthInformations: '', 
 
   /* Education */
-  educationField: '',
+  educationLevel: '',
   highschool: '',
   averageGrade: '', 
   ranking: '',
