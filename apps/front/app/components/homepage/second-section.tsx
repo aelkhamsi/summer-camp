@@ -58,13 +58,13 @@ const SecondSection = () => {
             <p><span className='bg-gradient-to-br from-[#1C55FF] to-[#ABA8A9] inline-block text-transparent bg-clip-text'>75+</span> Participants</p>
             <p><span className='bg-gradient-to-br from-[#1C55FF] to-[#ABA8A9] inline-block text-transparent bg-clip-text'>1</span> Semaine prise en charge</p>
             <p>✨ Des formations d&apos;excellence</p>
-            <p>🏖️ Des jeux, du sport et des sorties</p>
+            <p>🏖️ Des jeux, du sport et des activités</p>
           </div>
         </div>
 
         <div className="w-full flex flex-col px-4 space-y-4">
           <p>L'édition passée de Summer Camp s'est tenue à Martil en collaboration avec LYMED</p>
-          <p>Cet événement a rassemblé près d&apos;une centaine de jeunes passionnés de sciences et de mathématiques, issus de la dernière année du collège.</p>
+          <p>Cet événement a rassemblé près d&apos;une cinquantaine de jeunes passionnés de sciences et de mathématiques, issus de la dernière année du collège.</p>
           <p>En 2025, le Summer Camp voit plus grand : il s&apos;ouvrira à tous les niveaux du collège, ainsi qu&apos;aux élèves du tronc commun.</p>
           <p>L&apos;objectif ? Offrir une expérience encore plus riche, à travers de nouvelles activités, une formation de haut niveau et des opportunités inédites pour éveiller la curiosité et nourrir l&apos;ambition des participants.</p>
         </div>
