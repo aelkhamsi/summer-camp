@@ -64,8 +64,8 @@ const SecondSection = () => {
 
         <div className="w-full flex flex-col px-4 space-y-4">
           <p>L'édition passée de Summer Camp s'est tenue à Martil en collaboration avec LYMED</p>
-          <p>Une édition qui a réuni une centaine de passionnés de mathématiques autour de conférences d'experts, de stands et de compétitions</p>
-          <p>En 2025, Summer Camp promet d'aller encore plus loin, en offrant une expérience enrichie avec de nouvelles activités, des intervenants de renommée internationale et des opportunités inédites pour tous les passionnés de mathématiques</p>
+          <p>Une édition qui a réuni près d&apos;une centaine de passionnés de sciences et de mathématiques de la dernière année du collège.</p>
+          <p>En 2025, Summer Camp promet d'aller encore plus loin et d&apos;inclure les élèves de tout les niveaux du collège, ainsi que les élèves du tronc commun. On compte offrir une expérience enrichie avec de nouvelles activités, une formation d&apos;excellence et des opportunités inédites.</p>
         </div>
       </div>
     </div>

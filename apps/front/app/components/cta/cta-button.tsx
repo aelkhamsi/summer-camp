@@ -8,7 +8,11 @@ import { useRouter } from "next/navigation"
 import { useState } from 'react';
 import { LoadingDots } from '@mdm/ui';
 
-const CtaButton = () => {
+const CtaButton = ({
+  label
+}:{
+  label?: string
+}) => {
   const { AuthModal, setShowAuthModal } = useAuthModal();
   const user = useAtomValue(userAtom)
   const [isLoading, setIsLoading] = useState(false)
@@ -37,7 +41,7 @@ const CtaButton = () => {
           <Scroll className='h-5 w-5'/>
 
           {!isLoading
-            ? 'Participer'
+            ? label ?? 'Participer'
             : <LoadingDots color="#808080" />
           }
         </span>

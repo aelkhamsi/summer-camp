@@ -1,4 +1,5 @@
 import { Card } from '@/app/components/card';
+import CtaButton from '../cta/cta-button';
 
 const ThirdSection = () => {
   return (
@@ -21,49 +22,46 @@ const ThirdSection = () => {
       </div>
 
       {/* Content */}
-      <div className='relative isolate overflow-hidden w-full flex flex-col justify-center items-center py-14 bg-[#000102] text-white'>
+      <div className='relative isolate overflow-hidden w-full flex flex-col justify-center items-center py-14 bg-[#000102] text-white space-y-10'>
         <h1 className='text-3xl text-center font-bold'>
-          Activités & Compétitions
+          Comment y participer ?
         </h1>
 
-        <div className='max-w-screen-sm text-base text-center my-6 p-4 xl:p-0'>
-          Découvrez le programme captivant de compétitions, d'activités et de conférences qui vous attend cette année !
-        </div>
-
         <div
-          className="md:flex w-full lg:w-3/4 text-sm my-4"
+          className="flex flex-col space-y-10 md:flex-row md:space-y-0 w-full lg:w-3/4 my-4"
         >
-          <div className='w-full'>
-            <div className='text-center font-bold text-[#1C55FF] p-6'>
-              Compétitions
+          <div className='w-full text-center'>
+            <span className="inline-block border border-white px-4 py-2 rounded-full text-2xl">
+              1
+            </span>
+
+            <div className='text-center p-6 text-lg'>
+              Remplir le formulaire d&apos;inscription
             </div>
 
-            <div className="flex flex-col space-y-8 md:flex-row md:space-y-0 md:space-x-6 text-center px-14">
-              <Card href='math-sprint'>
-                Math Sprint<br/>
-                <span className='font-base text-sm text-gray-400'>(collège & lycée)</span>
-              </Card>
-              <Card href='best-math-video'>
-                Best Math Video <br/>
-                <span className='font-base text-sm text-gray-400'>(primaire, collège & lycée)</span>
-              </Card>
+            <div className='text-center p-6'>
+              Vous devez remplir le formulaire d&apos;inscription suivant avant le <span className='font-bold'>19 mai 2025</span>
             </div>
+
+            <CtaButton label="Formulaire d'inscription"/>
           </div>
 
-          <div className='w-full'>
-            <div className='text-center font-bold text-[#1C55FF] p-6'>
-              Activités
+          <div className='w-full text-center'>
+            <span className="inline-block border border-white px-4 py-2 rounded-full text-2xl">
+              2
+            </span>
+
+            <div className='text-center p-6 text-lg'>
+              Passer le test de séléction
             </div>
 
-            <div className="flex flex-col space-y-8 md:flex-row md:space-y-0 md:space-x-6 text-center px-14">
-              <Card href='conferences'>
-                Conférences
-              </Card>
-              <Card href='stands'>
-                Stands<br/>
-                <span className='font-base text-sm text-gray-400'>(université)</span>
-              </Card>
+            <div className='text-center p-6'>
+              Après le <span className='font-bold'>19 mai 2025</span>, les personnes inscrites seront contactées par mail pour passer un test de séléction
             </div>
+
+            <Card href='selection' className='h-[10rem] md:h-[10rem]'>
+              Test de séléction
+            </Card>
           </div>
         </div>
       </div>
