@@ -32,6 +32,16 @@ export const Menu = () => {
             href="/organizing-team"
             onClick={() => {setShowMenu(false)}}
           >
+            Test de sélection
+          </Link>
+        </NavigationMenuItem>
+
+        <NavigationMenuItem>
+          <Link 
+            className="text-sm font-medium mr-6 hover:cursor-pointer hover:underline"
+            href="/organizing-team"
+            onClick={() => {setShowMenu(false)}}
+          >
             Equipe organisatrice
           </Link>
         </NavigationMenuItem>

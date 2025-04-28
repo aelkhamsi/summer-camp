@@ -105,7 +105,7 @@ const FourthSection = () => {
         <button
           className="p-[3px] relative text-sm"
         >
-          <div className="absolute inset-0 bg-gradient-to-r from-[#1C55FF] to-[#FF4925] rounded-lg" />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#1C55FF] to-cyan-600 rounded-lg" />
           <div className="px-8 py-2 bg-white rounded-[6px] relative group transition duration-200 text-black hover:bg-transparent hover:text-white">
             Découvrir l&apos;équipe organisatrice
           </div>

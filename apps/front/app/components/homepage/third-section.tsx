@@ -52,15 +52,15 @@ const ThirdSection = () => {
             </span>
 
             <div className='text-center p-6 text-lg'>
-              Passer le test de séléction
+              Passer le test de sélection
             </div>
 
             <div className='text-center p-6'>
-              Après le <span className='font-bold'>19 mai 2025</span>, les personnes inscrites seront contactées par mail pour passer un test de séléction
+              Après le <span className='font-bold'>19 mai 2025</span>, les personnes inscrites seront contactées par mail pour passer un test de sélection
             </div>
 
             <Card href='selection' className='h-[10rem] md:h-[10rem]'>
-              Test de séléction
+              Test de sélection
             </Card>
           </div>
         </div>
