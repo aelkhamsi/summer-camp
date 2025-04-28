@@ -12,7 +12,7 @@ const HeroSection = () => {
       className='bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-[#fff9f3] via-[#fff9f3] to-transparent'
     > 
       {/* Hero Section */}
-      <div className="w-full flex flex-col items-center max-w-2xl space-y-6">
+      <div className="w-full flex flex-col items-center max-w-2xl space-y-8">
         {/* Logo */}
         <div 
           className="animate-fade-up opacity-0 z-10 md:p-0"

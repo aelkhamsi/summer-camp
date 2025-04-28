@@ -40,7 +40,7 @@ const ThirdSection = () => {
             </div>
 
             <div className='text-center p-6'>
-              Vous devez remplir le formulaire d&apos;inscription suivant avant le <span className='font-bold'>19 mai 2025</span>
+              Vous devez remplir le formulaire d&apos;inscription suivant avant le <span className='font-bold'>23 mai 2025</span>
             </div>
 
             <CtaButton label="Formulaire d'inscription"/>
@@ -56,10 +56,10 @@ const ThirdSection = () => {
             </div>
 
             <div className='text-center p-6'>
-              Après le <span className='font-bold'>19 mai 2025</span>, les personnes inscrites seront contactées par mail pour passer un test de sélection
+              Après le <span className='font-bold'>23 mai 2025</span>, les personnes inscrites seront contactées par mail pour passer un test de sélection
             </div>
 
-            <Card href='selection' className='h-[10rem] md:h-[10rem]'>
+            <Card href='selection'>
               Test de sélection
             </Card>
           </div>

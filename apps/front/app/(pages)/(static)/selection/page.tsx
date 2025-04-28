@@ -30,16 +30,32 @@ export default function MathSprintPage() {
           <div className="w-full space-y-4 p-4">
             <p className='font-bold text-sm text-[#1C55FF]'>La sélection</p>
             <h1 className='font-bold text-3xl'>Comment se passera la sélection ?</h1>
-            <p className="text-lg">Avant de pouvoir participer à cette compétition, un test de sélection sera mené pour évaluer le niveau des potentiels participants</p>
-            <p className="text-lg">Le test sera effectué sur une <span className="font-semibold text-gray-800">plateforme en ligne</span> sous la forme d'un QCM surveillé par caméra</p>
+            <p className="text-lg">À la suite de votre candidature, vous serez invités à passer un test de sélection qui se déroulera sur la plateforme <span className="font-bold">Evalmee</span> le matin du dimanche <span className="font-bold">25 mai</span>.</p>
+            <p className="text-lg">Ce test prendra la forme d&apos;un <span className="font-bold">questionnaire à choix multiples (QCM)</span> et portera sur divers concepts mathématiques.</p>
+            <p className="text-lg">Il nous permettra d&apos;évaluer votre logique, votre capacité à résoudre des problèmes complexes et, plus généralement, votre niveau en mathématiques.</p>
+            <p className="text-lg">Après ce test, les candidats ayant obtenu les meilleures notes seront convoqués pour des <span className="font-bold">entretiens individuels</span> en ligne. Ces entretiens constitueront une seconde phase de sélection permettant d&apos;évaluer plus en profondeur leurs compétences et leur adéquation avec nos attentes.</p>
           </div>
 
           <div className="w-full space-y-4 p-4">
             <p className='font-bold text-sm text-[#1C55FF]'>Le syllabus</p>
-            <h1 className='font-bold text-3xl'>Quels sujets concernent l'épreuve ?</h1>
+            <h1 className='font-bold text-3xl'>Préparation au test</h1>
             
             <div className="flex flex-col items-center space-y-4 md:flex-row md:space-x-4 md:space-y-0">
-              Le syllabus des épreuves sera communiqué prochainement!
+              Le programme des cours concernés vous sera transmis très prochainement afin de vous permettre de vous préparer dans les meilleures conditions.
+            </div>
+
+            <div className="flex flex-col items-center space-y-4 md:flex-row md:space-x-4 md:space-y-0">
+              <Link href=''>
+                <div 
+                  className="h-[8rem] w-[9rem] bg-white border-b-4 border-b-red-500 bg-gray-200 border-2 shadow-md flex justify-center items-center rounded-md hover:cursor-not-allowed"
+                >
+                  <div className="flex flex-col items-center text-center">
+                    <span className="font-bold text-gray-400">Syllabus</span>
+                    <ExamIcon className="h-[4rem]"/>
+                  </div>
+                </div>
+                <div className="text-xs text-gray-500 mt-1">Disponible prochainement</div>
+              </Link>
             </div>
           </div>
         </div>

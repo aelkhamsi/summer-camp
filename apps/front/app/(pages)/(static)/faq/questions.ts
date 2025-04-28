@@ -5,7 +5,7 @@ export const generalQuestions = [
   },
   {
     question: "Quelle est la date limite de candidature ?",
-    anwser: "La date limite est le 21 juin à 23h59, heure marocaine. Ne tardez pas à soumettre votre candidature. Aucune exception ne sera accordée pour les soumissions tardives, quelles que soient les raisons, qu'il s'agisse d'un oubli, de problèmes de connexion Internet ou de toute autre excuse."
+    anwser: "La date limite est le 23 juin à 23h59, heure marocaine. Ne tardez pas à soumettre votre candidature. Aucune exception ne sera accordée pour les soumissions tardives, quelles que soient les raisons, qu'il s'agisse d'un oubli, de problèmes de connexion Internet ou de toute autre excuse."
   },
   {
     question: "Est-ce que la participation à cet événement est gratuite ?",
