@@ -1,4 +1,5 @@
 import {
+  ForbiddenException,
   Injectable,
   NotFoundException,
   UnauthorizedException,
@@ -9,6 +10,7 @@ import { JwtService } from '@nestjs/jwt';
 import { AdminUserService } from 'src/modules/admin-user/services/admin-user.service';
 import { ADMIN_ROLE, USER_ROLE } from 'src/constants';
 import { MailService } from 'src/modules/mail/mail.service';
+import { v4 as uuidv4 } from 'uuid';
 
 @Injectable()
 export class AuthService {
@@ -105,5 +107,31 @@ export class AuthService {
     };
     const token = await this.jwtService.signAsync(payload);
     await this.mailService.sendResetPasswordEmail(user, token);
+  }
+
+  async sendEmailVerificationCode(email: string) {
+    const user = await this.userService.findOneByEmail(email);
+    if (!user) {
+      throw new NotFoundException();
+    }
+
+    const verificationCode = await uuidv4().slice(-6);
+    this.userService.updateEmaiVerificationCode(user?.id, verificationCode);
+
+    await this.mailService.sendEmailVerificationEmail(user, verificationCode);
+  }
+
+  async checkEmailVerificationCode(email: string, verificationCode: string) {
+    const user = await this.userService.findOneByEmail(email);
+    if (!user) {
+      throw new NotFoundException();
+    }
+
+    const userVerificationCode = user?.verificationCode;
+    if (userVerificationCode != verificationCode) {
+      throw new ForbiddenException();
+    }
+
+    await this.userService.updateVerifiedStatus(user?.id, true);
   }
 }

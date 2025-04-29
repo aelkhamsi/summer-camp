@@ -18,12 +18,23 @@ export class MailService {
 
     await this.mailerService.sendMail({
       to: user.email,
-      // from: '"Support Team" <support@example.com>', // override default from
       subject: 'Summer Camp | Reset your password',
       template: './reset-password',
       context: {
         firstName: user.firstName,
         link,
+      },
+    });
+  }
+
+  async sendEmailVerificationEmail(user: User, verificationCode: string) {
+    await this.mailerService.sendMail({
+      to: user.email,
+      subject: 'Summer Camp | Email verification',
+      template: './email-verification',
+      context: {
+        firstName: user.firstName,
+        verificationCode,
       },
     });
   }
