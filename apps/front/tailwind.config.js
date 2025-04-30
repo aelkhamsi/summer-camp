@@ -25,6 +25,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
+        poppins: ["var(--font-poppins)", "system-ui", "sans-serif"],
         neco: ["var(--font-neco)", "system-ui", "sans-serif"],
         pally: ["var(--font-pally)", "system-ui", "sans-serif"],
         display: ["var(--font-sf)", "system-ui", "sans-serif"],

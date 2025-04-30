@@ -16,6 +16,11 @@ export const neco = localFont({
   variable: "--font-neco",
 })
 
+export const poppins = localFont({
+  src: "./Poppins-Variable.ttf",
+  variable: "--font-poppins",
+})
+
 export const inter = Inter({
   variable: "--font-inter",
   subsets: ["latin"],

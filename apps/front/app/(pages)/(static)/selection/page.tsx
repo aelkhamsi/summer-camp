@@ -25,15 +25,15 @@ export default function MathSprintPage() {
         </h1>
 
         <div
-          className="flex flex-col w-full md:flex-row md:justify-between md:space-x-8 text-base"
+          className="flex flex-col w-full md:flex-row md:justify-between md:space-x-8"
         >
           <div className="w-full space-y-4 p-4">
             <p className='font-bold text-sm text-[#1C55FF]'>La sélection</p>
             <h1 className='font-bold text-3xl'>Comment se passera la sélection ?</h1>
-            <p className="text-lg">À la suite de votre candidature, vous serez invités à passer un test de sélection qui se déroulera sur la plateforme <span className="font-bold">Evalmee</span> le matin du dimanche <span className="font-bold">25 mai</span>.</p>
-            <p className="text-lg">Ce test prendra la forme d&apos;un <span className="font-bold">questionnaire à choix multiples (QCM)</span> et portera sur divers concepts mathématiques.</p>
-            <p className="text-lg">Il nous permettra d&apos;évaluer votre logique, votre capacité à résoudre des problèmes complexes et, plus généralement, votre niveau en mathématiques.</p>
-            <p className="text-lg">Après ce test, les candidats ayant obtenu les meilleures notes seront convoqués pour des <span className="font-bold">entretiens individuels</span> en ligne. Ces entretiens constitueront une seconde phase de sélection permettant d&apos;évaluer plus en profondeur leurs compétences et leur adéquation avec nos attentes.</p>
+            <p>À la suite de votre candidature, vous serez invités à passer un test de sélection qui se déroulera sur la plateforme <span className="font-bold">Evalmee</span> le matin du dimanche <span className="font-bold">25 mai</span>.</p>
+            <p>Ce test prendra la forme d&apos;un <span className="font-bold">questionnaire à choix multiples (QCM)</span> et portera sur divers concepts mathématiques.</p>
+            <p>Il nous permettra d&apos;évaluer votre logique, votre capacité à résoudre des problèmes complexes et, plus généralement, votre niveau en mathématiques.</p>
+            <p>Après ce test, les candidats ayant obtenu les meilleures notes seront convoqués pour des <span className="font-bold">entretiens individuels</span> en ligne. Ces entretiens constitueront une seconde phase de sélection permettant d&apos;évaluer plus en profondeur leurs compétences et leur adéquation avec nos attentes.</p>
           </div>
 
           <div className="w-full space-y-4 p-4">
