@@ -6,6 +6,16 @@ export const sfPro = localFont({
   variable: "--font-sf",
 });
 
+export const pally = localFont({
+  src: "./Pally-Variable.ttf",
+  variable: "--font-pally",
+})
+
+export const neco = localFont({
+  src: "./Neco-Variable.ttf",
+  variable: "--font-neco",
+})
+
 export const inter = Inter({
   variable: "--font-inter",
   subsets: ["latin"],

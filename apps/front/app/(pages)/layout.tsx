@@ -1,7 +1,7 @@
 import "./globals.css";
 import "@mdm/ui/globals.css";
 import cx from "classnames";
-import { sfPro, inter } from "../lib/fonts";
+import { sfPro, inter, pally, neco } from "../lib/fonts";
 import Footer from "@/app/components/layout/footer/footer";
 import { Suspense } from "react";
 import { Analytics as VercelAnalytics } from "@vercel/analytics/react";
@@ -24,7 +24,7 @@ export default async function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={cx(sfPro.variable, inter.variable)}>
+      <body className={`${cx(pally.variable, neco.variable)} font-neco`}>
         <JotaiContextProvider>
           <DataProvider>
             <Suspense fallback="...">
