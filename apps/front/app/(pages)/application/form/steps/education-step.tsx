@@ -156,6 +156,13 @@ export const EducationStep = ({
             </FormItem>
           )}
         />
+
+        <div className='flex flex-col justify-end'>
+          <div className='text-sm'>
+            <span className='text-red-700 font-bold'>Remarque</span>: Si votre bulletin n'affiche pas le classement, merci de remplir '0' dans les cases de classement.
+          </div>
+          
+        </div>
       </div>
     </motion.div>
   )

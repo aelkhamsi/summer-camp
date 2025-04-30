@@ -125,7 +125,7 @@ export const UploadStep = ({
                   <FileInput form={form} id="fileParentalAuthorization" />
                 </FormControl>
                 <FormDescription>
-                    <span className="text-blue-500">Remarque</span>: il faut l&apos;imprimer, la signer à la main, la légaliser, puis la scanner; La légalisation est obligatoire.<span className="font-bold">la légalisation est obligatoire</span>.
+                    <span className="text-blue-500">Remarque</span>: il faut l&apos;imprimer, la signer à la main, la légaliser, puis la scanner. <span className="font-bold">la légalisation est obligatoire</span>.
                 </FormDescription>
                 <FormMessage />
               </FormItem>
@@ -147,7 +147,7 @@ export const UploadStep = ({
                   <FileInput form={form} id="fileRegulations" />
                 </FormControl>
                 <FormDescription>
-                    <span className="text-blue-500">Remarque</span>: il faut l&apos;imprimer, la signer à la main, puis la scanner; Pas besoin de légaliser. <span className="font-bold">la légalisation est obligatoire</span>.
+                    <span className="text-blue-500">Remarque</span>: il faut l&apos;imprimer, la signer à la main, puis la scanner. <span className="font-bold">Pas besoin de légaliser</span>.
                 </FormDescription>
                 <FormMessage />
               </FormItem>
