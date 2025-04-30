@@ -111,13 +111,13 @@ export const organizingCommittee = [
     linkedinSrc: 'https://www.linkedin.com/in/adam-lachkar-630010305',
   },
   {
-    name: 'Nour El Bouz',
-    imageSrc: '/organizing-team/nour_el_bouz.webp',
+    name: 'Nour El Houda El Bouz',
+    imageSrc: '/organizing-team/nour_el_houda_el_bouz.webp',
     linkedinSrc: 'https://www.linkedin.com/in/el-bouz-nour-el-houda-631425308',
   },
   {
-    name: 'Rinas Nejjar',
-    imageSrc: '/organizing-team/rinas_nejjar.webp',
+    name: 'Rinas Nejjari',
+    imageSrc: '/organizing-team/rinas_nejjari.webp',
     linkedinSrc: 'https://www.linkedin.com/in/rinas-nejjari-1ba702358',
   },
   {
