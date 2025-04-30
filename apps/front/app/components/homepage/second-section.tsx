@@ -54,7 +54,7 @@ const SecondSection = () => {
         className="flex flex-col md:flex-row md:justify-between md:space-x-8 w-full lg:w-3/4 text-base md:my-12"
       >
         <div className='w-full flex justify-start p-4 lg:p-0'>
-          <div className="w-fit space-y-4 font-medium text-3xl lg:text-4xl">
+          <div className="w-fit space-y-4 font-medium text-3xl">
             <p><span className='bg-gradient-to-br from-[#1C55FF] to-[#ABA8A9] inline-block text-transparent bg-clip-text'>75+</span> Participants</p>
             <p><span className='bg-gradient-to-br from-[#1C55FF] to-[#ABA8A9] inline-block text-transparent bg-clip-text'>1</span> Semaine prise en charge</p>
             <p>✨ Des formations d&apos;excellence</p>
