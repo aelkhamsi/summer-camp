@@ -81,11 +81,6 @@ export const organizingCommittee = [
     linkedinSrc: 'www.linkedin.com/in/ayman-riad-solh',
   },
   {
-    name: 'Ayoub En-Nadif',
-    imageSrc: '/organizing-team/ayoub_ennadif.webp',
-    linkedinSrc: 'https://www.linkedin.com/in/ayoub-en-nadif',
-  },
-  {
     name: 'Salma Es-safi',
     imageSrc: '/organizing-team/salma_essafi.webp',
     linkedinSrc: 'https://www.linkedin.com/in/salma-es-safi',
@@ -109,6 +104,31 @@ export const organizingCommittee = [
     name: 'Abdelkayoum Kaddouri',
     imageSrc: '/organizing-team/abdelkayoum_kaddouri.webp',
     linkedinSrc: 'https://www.linkedin.com/in/abdelkayoum-kaddouri',
+  },
+  {
+    name: 'Adam Lachkar',
+    imageSrc: '/organizing-team/adam_lachkar.webp',
+    linkedinSrc: 'https://www.linkedin.com/in/adam-lachkar-630010305',
+  },
+  {
+    name: 'Nour El Bouz',
+    imageSrc: '/organizing-team/nour_el_bouz.webp',
+    linkedinSrc: 'https://www.linkedin.com/in/el-bouz-nour-el-houda-631425308',
+  },
+  {
+    name: 'Rinas Nejjar',
+    imageSrc: '/organizing-team/rinas_nejjar.webp',
+    linkedinSrc: 'https://www.linkedin.com/in/rinas-nejjari-1ba702358',
+  },
+  {
+    name: 'Hadi Mouline',
+    imageSrc: '/organizing-team/hadi_mouline.webp',
+    linkedinSrc: '',
+  },
+  {
+    name: 'Moaad El Moutassim',
+    imageSrc: '/organizing-team/moaad_el_moutassim.webp',
+    linkedinSrc: 'https://www.linkedin.com/in/moaad-elmoutassim-7745172a6',
   },
 ];
 
