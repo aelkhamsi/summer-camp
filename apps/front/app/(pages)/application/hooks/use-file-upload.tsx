@@ -3,7 +3,8 @@ import { applicationSchema } from "@/app/schemas/application.schema"
 import { computeSHA256, generateFileName, getUploadFolderName } from '@/app/lib/utils';
 import { User } from '@mdm/types';
 import { getSignedURL, uploadFile } from '@/app/api/MediaApi';
-import { putApplication } from '@/app/api/ApplicationApi';
+import { postApplication, putApplication } from '@/app/api/ApplicationApi';
+import { excludeFileFields, serializeApplication } from '../serialization';
 
 export const useFileUpload = () => {
   const getFiles = (
@@ -49,14 +50,22 @@ export const useFileUpload = () => {
     user: User|undefined
   ) => {
     const uploadFolderName = getUploadFolderName(user?.firstName, user?.lastName);
-
-    await putApplication(formData?.id, {
+    const fileUrls = {
       fileCnieUrl: files[0] ? `upload_sc/${uploadFolderName}/${files[0].name}` : (formData?.fileCnieUrl ?? null),
       fileSchoolCertificateUrl: files[1] ? `upload_sc/${uploadFolderName}/${files[1].name}` : (formData?.fileSchoolCertificateUrl ?? null),
       fileGradesUrl: files[2] ? `upload_sc/${uploadFolderName}/${files[2].name}` : (formData?.fileGradesUrl ?? null),
       fileRegulationsUrl: files[3] ? `upload_sc/${uploadFolderName}/${files[3].name}` : (formData?.fileRegulationsUrl ?? null),
       fileParentalAuthorizationUrl: files[4] ? `upload_sc/${uploadFolderName}/${files[4].name}` : (formData?.fileParentalAuthorizationUrl ?? null),
-    }) as any
+    }
+
+    const result = await putApplication(formData?.id, fileUrls) as any
+
+    if (result?.statusCode !== 200) {
+      await postApplication({
+        ...excludeFileFields(serializeApplication(formData)),
+        ...fileUrls,
+      }) as any
+    }
   }
 
   return {
