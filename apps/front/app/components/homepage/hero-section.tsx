@@ -26,7 +26,7 @@ const HeroSection = () => {
           />
         </div>
 
-        <div className="w-[50rem] md:w-[80rem] relative">
+        <div className="w-[25rem] md:w-[80rem] relative">
           <div className="absolute inset-x-40 top-0 bg-gradient-to-r from-transparent via-stone-200 to-transparent h-[2px] md:w-3/4 blur-sm" />
           <div className="absolute inset-x-40 top-0 bg-gradient-to-r from-transparent via-stone-200 to-transparent h-px md:w-3/4" />
           <div className="absolute inset-x-80 top-0 bg-gradient-to-r from-transparent via-[#FF4925] to-transparent h-[5px] md:w-2/4 blur-sm" />
