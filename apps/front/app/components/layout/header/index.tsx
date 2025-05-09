@@ -41,7 +41,7 @@ export default function Header() {
           <Link href="/" className="flex items-center font-display text-2xl">
             <Image
               src="/logomark_orange.svg"
-              alt="MDM logo"
+              alt="Summer Camp logo"
               width={45}
               height={45}
               className="mr-2"

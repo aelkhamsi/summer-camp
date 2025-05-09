@@ -20,7 +20,7 @@ const HeroSection = () => {
         >
           <Image
             src="/wordmark_orange.svg"
-            alt="MDM logo"
+            alt="Summer Camp logo"
             width='300'
             height='150'
           />
