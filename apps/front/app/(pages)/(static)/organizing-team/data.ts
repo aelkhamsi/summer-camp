@@ -130,6 +130,11 @@ export const organizingCommittee = [
     imageSrc: '/organizing-team/moaad_el_moutassim.webp',
     linkedinSrc: 'https://www.linkedin.com/in/moaad-elmoutassim-7745172a6',
   },
+  {
+    name: 'Alae Messaoudi',
+    imageSrc: '/organizing-team/alae_messaoudi.webp',
+    linkedinSrc: 'https://www.linkedin.com/in/alae-messaoudi-0933b224a/',
+  },
 ];
 
 export const brandDesign = [
