@@ -37,24 +37,25 @@ export default function MathSprintPage() {
           </div>
 
           <div className="w-full space-y-4 p-4">
-            <p className='font-bold text-sm text-[#1C55FF]'>Le syllabus</p>
+            <p className='font-bold text-sm text-[#1C55FF]'>La préparation</p>
             <h1 className='font-bold text-3xl'>Préparation au test</h1>
             
             <div className="flex flex-col items-center space-y-4 md:flex-row md:space-x-4 md:space-y-0">
-              Le programme des cours concernés vous sera transmis très prochainement afin de vous permettre de vous préparer dans les meilleures conditions.
+              Pour vous préparer au mieux à votre test de sélection, nous vous invitons à lire attentivement le document ci-dessous.
+              Vous y découvrirez les critères essentiels pour réussir votre test, ainsi que des ressources utiles pour optimiser votre préparation.
             </div>
 
             <div className="flex flex-col items-center space-y-4 md:flex-row md:space-x-4 md:space-y-0">
-              <Link href=''>
+              <Link href='https://drive.google.com/file/d/1w7MeTy8Iec3R_eVJFqud-H022vIJ3pwe/view?usp=sharing' target="_blank">
                 <div 
-                  className="h-[8rem] w-[9rem] bg-white border-b-4 border-b-red-500 bg-gray-200 border-2 shadow-md flex justify-center items-center rounded-md hover:cursor-not-allowed"
+                  className="h-[8rem] w-[10rem] bg-white border-b-4 border-b-red-500 bg-gray-200 border-2 shadow-md flex justify-center items-center rounded-md"
                 >
                   <div className="flex flex-col items-center text-center">
-                    <span className="font-bold text-gray-400">Syllabus</span>
+                    <span className="font-bold">Test de sélection</span>
                     <ExamIcon className="h-[4rem]"/>
                   </div>
                 </div>
-                <div className="text-xs text-gray-500 mt-1">Disponible prochainement</div>
+                {/* <div className="text-xs text-gray-500 mt-1">Disponible prochainement</div> */}
               </Link>
             </div>
           </div>
