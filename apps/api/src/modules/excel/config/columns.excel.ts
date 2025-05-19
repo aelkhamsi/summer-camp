@@ -5,6 +5,7 @@ export const columns = [
   { header: 'Email', key: 'email', width: 25 },
   { header: 'Date of Birth', key: 'dob', width: 15 },
   { header: 'CNIE', key: 'cnie', width: 12 },
+  { header: 'Student Number (Massar)', key: 'student-number', width: 12 },
   { header: 'City', key: 'city', width: 15 },
   { header: 'Region', key: 'region', width: 20 },
   { header: 'Phone number', key: 'phone-number', width: 17 },
@@ -24,13 +25,12 @@ export const columns = [
     width: 20,
   },
   {
-    header: 'Activity Choices',
-    key: 'activity-choices',
-    width: 30,
+    header: 'Heath Informations',
+    key: 'health-informations',
+    width: 20,
   },
 
   { header: 'Education Level', key: 'education-level', width: 20 },
-  { header: 'Education Field', key: 'education-field', width: 20 },
   { header: 'Highschool', key: 'highschool', width: 15 },
   {
     header: 'Moyenne générale',
@@ -52,38 +52,34 @@ export const columns = [
     key: 'semester-math-ranking',
     width: 15,
   },
-  {
-    header: 'Nb of students in class',
-    key: 'nb-of-students-in-class',
-    width: 15,
-  },
-
-  {
-    header: '[SPRINT] Have you participated in competitions before ?',
-    key: 'has-previously-participated',
-    width: 15,
-  },
-  {
-    header: '[SPRINT] Details of experiences',
-    key: 'details-of-experience',
-    width: 20,
-  },
-  { header: '[BMV] Video Title', key: 'education-level', width: 20 },
-  { header: '[BMV] Video Link', key: 'education-field', width: 20 },
-  { header: '[BMV] Video Subject', key: 'highschool', width: 15 },
-  { header: '[BMV] Video Motivations', key: 'highschool', width: 15 },
-  { header: '[BMV] Video Ressources', key: 'highschool', width: 15 },
-
-  { header: '[STAND] Subject Title', key: 'highschool', width: 15 },
-  { header: '[STAND] Subject Details', key: 'highschool', width: 15 },
-  { header: '[STAND] Members', key: 'highschool', width: 15 },
 
   { header: 'Motivations', key: 'id', width: 30 },
+  {
+    header: 'Have you participated with Math&Maroc before?',
+    key: 'has-previous-math-maroc-participations',
+    width: 15,
+  },
+  {
+    header: 'Details of Math&Maroc participation',
+    key: 'previous-math-maroc-participations',
+    width: 20,
+  },
+  {
+    header: 'Have you participated in other competitions?',
+    key: 'has-previous-participations',
+    width: 15,
+  },
+  {
+    header: 'Details of participations',
+    key: 'previous-participations',
+    width: 20,
+  },
   { header: 'Comments', key: 'id', width: 30 },
 
   { header: 'CNIE', key: 'cnie', width: 10 },
-  { header: '[STAND] Members CNIE', key: 'members-cnie', width: 10 },
-  { header: '[SPRINT] Grades', key: 'grades', width: 10 },
+  { header: 'School Certificate', key: 'school-certificate', width: 10 },
+  { header: 'Grades', key: 'grades', width: 10 },
+  { header: 'Regulations', key: 'regulations', width: 10 },
   {
     header: 'Parental Authorization',
     key: 'parental-authorization',
