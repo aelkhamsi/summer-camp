@@ -27,20 +27,21 @@ const countApplications = (applications: any[], educationLevel?: string) => {
       count[0]++;
       if (application?.status?.status === 'PENDING') {
         count[1]++
+
+        if (application?.educationLevel === '1ac') {
+          count[2]++
+        }
+        if (application?.educationLevel === '2ac') {
+          count[3]++
+        }
+        if (application?.educationLevel === '3ac') {
+          count[4]++
+        }
+        if (application?.educationLevel === 'tronc-commun') {
+          count[5]++
+        }
       }
-      if (application?.educationLevel === '1ac') {
-        count[2]++
-      }
-      if (application?.educationLevel === '2ac') {
-        count[3]++
-      }
-      if (application?.educationLevel === '3ac') {
-        count[4]++
-      }
-      if (application?.educationLevel === 'tronc-commun') {
-        count[5]++
-      }
-    
+      
       return count;
     }, 
     [0, 0, 0, 0, 0, 0]
