@@ -53,10 +53,10 @@ const FilesTable = ({
           </TableRow>
         }
 
-        {application?.fileMembersCnieUrl && 
-          <TableRow key='members-cnie'>
-            <TableCell>Members CNIE</TableCell>
-            <TableCell><FileCard href={application?.fileMembersCnieUrl} /></TableCell>
+        {application?.fileSchoolCertificateUrl && 
+          <TableRow key='school-certificate'>
+            <TableCell>School Certificate</TableCell>
+            <TableCell><FileCard href={application?.fileSchoolCertificateUrl} /></TableCell>
           </TableRow>
         }
 
@@ -67,13 +67,19 @@ const FilesTable = ({
           </TableRow>
         }
 
+        {application?.fileRegulationsUrl && 
+          <TableRow key='regulations'>
+            <TableCell>Regulations</TableCell>
+            <TableCell><FileCard href={application?.fileRegulationsUrl} /></TableCell>
+          </TableRow>
+        }
+
         {application?.fileParentalAuthorizationUrl && 
           <TableRow key='parental-authorization'>
             <TableCell>Parental Authorization</TableCell>
             <TableCell><FileCard href={application?.fileParentalAuthorizationUrl} /></TableCell>
           </TableRow>
         }
-        
       </TableBody>
     </Table>
   )

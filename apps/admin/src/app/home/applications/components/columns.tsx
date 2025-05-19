@@ -101,37 +101,17 @@ export const columns: ColumnDef<ApplicationRow>[] = [
     },
   },
   {
-    accessorKey: "establishment",
+    accessorKey: "highschool",
     header: ({ column }) => {
       return (
         <Button
           variant="ghost"
           onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
         >
-          Establishment
+          Highschool
           <ArrowUpDown className="ml-2 h-4 w-4" />
         </Button>
       )
-    },
-  },
-  {
-    accessorKey: "activityChoices",
-    header: ({ column }) => {
-      return (
-        <Button
-          variant="ghost"
-        >
-          Activity Choices
-        </Button>
-      )
-    },
-    cell: ({ row }) => {
-      const choices = JSON.parse(row.getValue('activityChoices'))
-      return <ApplicationActivityChoices activityChoices={choices ? choices.sort() : undefined} className='flex flex-col gap-y-1 items-center' />
-    },
-    filterFn: (row, id, value) => {      
-      const choices = JSON.parse(row.getValue(id))
-      return value.some((filterValue: string) => choices.includes(filterValue))
     },
   },
   {
