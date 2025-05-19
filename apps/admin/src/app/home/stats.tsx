@@ -18,7 +18,7 @@ const Stats = ({
   return (
     <>
       <div className={`text-xl font-medium rounded-xl p-4 w-fit space-y-1 ${className}`}>
-        <div>Application</div>
+        <div>Applications</div>
         <div className="flex items-center space-x-4 text-sm">
           <div className="rounded-lg px-2 py-1 bg-gray-300 text-black">All</div>
           <div className={'text-zinc-100'}>{valueAll}</div>
@@ -30,7 +30,7 @@ const Stats = ({
       </div>
 
       <div className={`text-xl font-medium rounded-xl p-4 w-fit space-y-1 ${className}`}>
-        <div>Pending Application by Level</div>
+        <div>Pending Applications by Level</div>
         <div className="flex items-center space-x-4 text-sm">
           <div className="rounded-lg px-2 py-1 bg-gray-300 text-black">1 AC</div>
           <div className={'text-zinc-100'}>{value1AC}</div>
