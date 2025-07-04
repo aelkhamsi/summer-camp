@@ -36,22 +36,16 @@ const sponsors = [
     imageHeight: '45px',
   },
   {
-    key: 'evasan',
-    label: 'EVASAN',
-    imageHref: '/evasan.png',
-    imageHeight: '45px',
-  },
-  {
-    key: 'managem',
-    label: 'MANAGEM',
-    imageHref: '/managem.png',
+    key: 'oncf',
+    label: 'ONCF',
+    imageHref: '/oncf.svg',
     imageHeight: '90px',
   },
   {
-    key: 'sidi_ali',
-    label: 'SIDI ALI',
-    imageHref: '/sidi_ali.png',
-    imageHeight: '170px',
+    key: 'ram',
+    label: 'RAM',
+    imageHref: '/ram.svg',
+    imageHeight: '110px',
   },
 ]
 
@@ -161,7 +155,33 @@ export default function PartnersPage() {
                   imageSrc={sponsors[0].imageHref}
                   imageHeight={sponsors[0].imageHeight}
                 >
-                  <div><span className='mb-8 bg-gradient-to-br from-[#7cb9ff] to-[#3691FB] text-transparent bg-clip-text font-semibold'>Evalmee</span> est une plateforme d&apos;évaluation en ligne offrant des outils précis et personnalisés pour dévoiler et perfectionner les compétences. Découvrez une approche dynamique pour révéler le potentiel caché et atteindre l&apos;excellence professionnelle.</div>
+                  <div className="text-sm">
+                    <span className='mb-8 bg-gradient-to-br from-[#7cb9ff] to-[#3691FB] text-transparent bg-clip-text font-semibold'>Evalmee</span> est une plateforme d&apos;évaluation en ligne offrant des outils précis et personnalisés pour dévoiler et perfectionner les compétences. Découvrez une approche dynamique pour révéler le potentiel caché et atteindre l&apos;excellence professionnelle.
+                  </div>
+                </PartnerCard>
+
+                <PartnerCard
+                  key={sponsors[1].key}
+                  imageSrc={sponsors[1].imageHref}
+                  imageHeight={sponsors[1].imageHeight}
+                >
+                  
+                  
+                  <div className="text-sm">
+                    <span className='mb-8 text-[#f47216] font-semibold'>ONCF Partenaire Transport (Office National des Chemins de Fer)</span> est la société nationale des chemins de fer du Maroc.<br/>
+                    Acteur clé du transport et des infrastructures, l&apos;ONCF soutient des initiatives éducatives et scientifiques qui contribuent au développement du pays.
+                  </div>
+                </PartnerCard>
+
+                <PartnerCard
+                  key={sponsors[2].key}
+                  imageSrc={sponsors[2].imageHref}
+                  imageHeight={sponsors[2].imageHeight}
+                >
+                  <div className="text-sm">
+                    <span className='mb-8 text-[#c20831] font-semibold'>Royal Air Maroc (RAM)</span> est la compagnie aérienne nationale du Maroc.<br/>
+                    En tant que leader africain du transport, RAM soutient des initiatives éducatives et culturelles qui promeuvent la connaissance, l&apos;innovation et la collaboration internationale.
+                  </div>
                 </PartnerCard>
               </div>
             </div>
